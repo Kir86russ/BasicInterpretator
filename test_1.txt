@@ -1,0 +1,16 @@
+a = 10
+INPUT "Enter var b = ", b
+
+IF a < b + a THEN
+PRINT "Hello"
+
+ELSE PRINT "no hello"
+ENDFI
+
+GOTO 100
+
+a = 999
+b = 666
+
+100 PRINT a , " ", b
+END
